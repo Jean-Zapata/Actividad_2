@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinkColor"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".NewActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_app_trduccion"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:text="Welcome"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold|normal"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegisterStudent"
+        android:text="Registrar Alumno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegisterEvaluations"
+        android:text="Registrar Evaluaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnMakeQueries"
+        android:text="Realizar Consultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:text="Cerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
